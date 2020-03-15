@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Teste da Jaque</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/dom.js"></script>
+    </head>
+    <body onload="load()">
+        <button type="button" onclick="botao()">Clique aqui</button>
+        <p id="agradecimento"></p>
+        <button type="button" onclick="redirecionar()">Redirecionar</button>
+        <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui para trocar o texto</p>
+        <select onchange="muda(this)">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+    </body>
+</html>
